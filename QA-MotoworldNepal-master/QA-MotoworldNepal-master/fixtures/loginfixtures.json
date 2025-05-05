@@ -1,0 +1,51 @@
+{
+        "validUser":{
+            "email": "jensa@gmail.com",
+            "password": "jensa123@"
+        },
+        "invalidUserPass":{
+            "email": "admin@test.com",
+            "password": "admin"
+        },
+        "invalidPass":{
+            "email": "jensha@gmail.com",
+            "password": "jjj123"
+        },
+        "invalidUser":{
+            "email": "admin@test.com",
+            "password": "jensa@123"
+        },
+        "emptyUserinvalidPass":{
+            "email": "",
+            "password": "test@123"
+        },
+        "emptyPassinvalidUser":{
+            "email": "jensaa@gmail.com",
+            "password": ""
+        },
+        "emptyUservalidPass":{
+            "email": "",
+            "password": "jensa@123"
+        },
+        "emptyPassvalidUser":{
+            "email": "jensaa@gmail.com",
+            "password": ""
+        },
+        "emptyUserandPass":{
+            "email": "",
+            "password": ""
+        },
+
+    "search":{
+        "searchTerm": "LS2 Goggles",
+        "randomSearch": "lls2",
+        "emptySearch" : "",
+        "specialcharSearch": ":':%%^&",
+        "longcharSearch": "hjajkhakjdhauhadasdhgajgdhasgdjhasgdjhagsjdgasdgsahjgdjhasgdjasgdjagdj",
+        "caseinsensitiveSearch": "KYT"
+    },
+
+    "filler":{
+        "fillTerm": "2"
+    }
+}   
